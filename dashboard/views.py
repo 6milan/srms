@@ -15,7 +15,6 @@ from django.http import JsonResponse
 from django.urls import reverse_lazy
 from django.core import serializers
 import json
-
 from student_classes.models import StudentClass
 from results.models import DeclareResult
 from subjects.models import Subject
